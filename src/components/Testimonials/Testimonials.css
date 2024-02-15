@@ -1,0 +1,32 @@
+.cp{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 3.2rem;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    border-top: 2px solid rgb(183, 183, 183);
+}
+
+.testi-card{
+    position: relative;
+}
+
+.socials-testi{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 30px;
+    width: 30px;
+}

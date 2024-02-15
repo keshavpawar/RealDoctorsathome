@@ -1,0 +1,115 @@
+.container-plans{
+    padding-inline: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    padding-bottom: 6rem;
+}
+
+.container-plans>h1{
+    font-size: 2.5rem !important;
+}
+
+.discount{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(129, 187, 241);
+    color: black !important;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding-left: 8px;
+    margin-top: 12px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.cc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.cards-container{
+    border: 2px solid black;
+    width: 500px;
+    min-height: 600px;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    border-radius: 12px;
+    background-color: #0d4545;
+    line-height: 3rem;
+    position: relative;
+    padding:2rem;
+    padding-bottom: 5rem;
+    border: none;
+}
+
+.card-plans{
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.card-plans h1{
+    font-size: 2rem;
+}
+
+.card-plans p{
+    font-size: 1.2rem;
+}
+
+.recommended{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    color: black !important;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    padding-left: 8px;
+    margin-top: 12px;
+    border: none;
+    font-weight: bold;
+}
+
+.cards-container h1{
+    color: white;
+}
+
+.list-container{
+    /* margin-top: 2rem; */
+    line-height: 4rem;
+    padding: 2rem;
+}
+
+.list-container li{
+    list-style-type: circle;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn{
+    width: 40%;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+}
+

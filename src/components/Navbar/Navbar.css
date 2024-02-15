@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-color: rgb(182, 218, 240); */
+  /* background-color: rgb(250, 235, 218); */
+  background-color: rgb(134, 216, 205);
+  min-height: 5rem;
+  box-shadow: -4px 14px 69px 7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -4px 14px 69px 7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 14px 69px 7px rgba(0, 0, 0, 0.75);
+  /* gap: 5rem; */
+}
+
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar li {
+  list-style: none;
+  font-weight: bold;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar h1{
+    font-weight: 900;
+}
+
+.button{
+    padding: 0.7rem;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+    color: rgb(24, 23, 23);
+    background-color: rgb(37, 211, 102);
+    transition: all 0.5s ;
+}
+
+.button:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+.wp{
+  transition: all 0.5s;
+}
+
+.wp:hover{
+  transform: scale(1.2);
+}

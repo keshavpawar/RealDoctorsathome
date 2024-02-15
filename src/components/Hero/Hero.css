@@ -1,0 +1,23 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 4rem;
+    min-height: 80lvh;
+    background-color: #003032;
+    position: relative;
+    color: rgb(186, 230, 231);
+}
+
+
+
+.left{
+    line-height: 4rem;
+}
+
+.right img{
+    min-height: 450px;
+    max-width: 450px;
+    filter: drop-shadow(2px 4px 6px black);
+    
+}

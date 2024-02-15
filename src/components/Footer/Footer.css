@@ -1,0 +1,30 @@
+.social{
+    height: 40px;
+    width: 40px;
+}
+
+.foot-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 2rem;
+    background-color: #efedd8;
+}
+
+.foot-left{
+    width: 50%;
+    border-right: 2px solid black;
+    padding-inline: 2rem;
+}
+
+.socials{
+    display: flex;
+    gap: 1rem;
+}
+
+.foot-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
