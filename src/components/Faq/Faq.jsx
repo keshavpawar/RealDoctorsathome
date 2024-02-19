@@ -12,7 +12,7 @@ import {
 const Faq = () => {
   return (
     <div className="faq-parent">
-      <h1 style={{fontSize:"2rem"}}>Frequently Asked Questions</h1>
+      <h1 >Frequently Asked Questions</h1>
       <div className="faq-container">
         <Accordion  style={{ width: "40vw" }} allowToggle>
           <AccordionItem style={{minHeight:'4rem'}} >

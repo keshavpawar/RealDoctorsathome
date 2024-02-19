@@ -1,6 +1,6 @@
 .card {
-  height: 290px;
-  width: 210px;
+  height: 310px;
+  width: 260px;
   /* border: 1px solid red; */
   border-radius: 23px;
   background-color: rgb(255, 255, 255);
@@ -38,7 +38,7 @@
 .card p{
 
   padding: rem;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   justify-self: start;
   font-size: smaller;
 }

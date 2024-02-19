@@ -37,7 +37,7 @@ const Plans = () => {
           <h1>FOREVER</h1>
           <p style={{color:'white'}}>Lorem ipsum, dolor sit amet consectetur.</p>
           <h1>&#8377;950<span style={{fontSize:'1.3rem'}}>/month</span></h1>
-          <hr style={{marginTop:"2rem",marginTop: '2rem',height: '1px',width: '100%', backgroundColor: 'white'}} />
+          <hr style={{marginTop:"2rem",height: '1px',width: '100%', backgroundColor: 'white'}} />
           <div className="list-container">
             <div className="benefits">
               <ul>
@@ -61,7 +61,7 @@ const Plans = () => {
           <h1>FOREVER</h1>
           <p style={{color:'white'}}>Lorem ipsum, dolor sit amet consectetur.</p>
           <h1>&#8377;950<span>/month</span></h1>
-          <hr style={{marginTop:"2rem",marginTop: '2rem',height: '1px',width: '100%', backgroundColor: 'white'}} />
+          <hr style={{marginTop:"2rem",height: '1px',width: '100%', backgroundColor: 'white'}} />
           <div className="list-container">
             <div className="benefits">
               <ul>

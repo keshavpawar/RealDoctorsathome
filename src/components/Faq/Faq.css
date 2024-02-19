@@ -1,18 +1,57 @@
-.faq-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
+/* Style for FAQ parent container */
+.faq-parent {
+    display: block;
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 2rem; /* Add some padding */
+    background-color: #ffffff; /* Background color */
+    border-radius: 20px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    margin-bottom: 3rem;
+  }
 
-.faq-parent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-}
-
-.btn-faq:hover{
-    color: black;
-}
+  .faq-parent>h1{
+    text-align: center
+  }
+  
+  /* Style for FAQ title */
+  .faq-title {
+    text-align: center ;
+    font-size: 2.5rem; /* Larger font size for the title */
+    font-weight: bold; /* Make the title bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+    margin-bottom: 2rem; /* Add some space below the title */
+  }
+  
+  /* Style for FAQ accordion */
+  .chakra-accordion {
+    width: 80vw !important; /* Make the accordion fill the container */
+  }
+  
+  /* Style for FAQ accordion items */
+  .faq-item {
+    background-color: #fff; /* Background color for accordion items */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow */
+    margin-bottom: 1rem; /* Add some space between accordion items */
+  }
+  
+  /* Style for FAQ accordion button */
+  .faq-button {
+    padding: 1rem; /* Add padding to the button */
+    border: none; /* Remove border */
+    background-color: #f0f0f0; /* Background color for the button */
+    border-radius: 10px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  /* Hover effect for FAQ accordion button */
+  .faq-button:hover {
+    background-color: #e0e0e0; /* Darken the background color on hover */
+  }
+  
+  /* Style for FAQ accordion panel */
+  .faq-panel {
+    padding: 1rem; /* Add padding to the panel */
+  }
+  

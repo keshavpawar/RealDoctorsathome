@@ -7,22 +7,25 @@ import "slick-carousel/slick/slick-theme.css";
 function Blogs() {
 
   const settings = {
-    dots: true,
+  
     infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 2
-    
-  };
+    speed: 8000,
+    // dots : true,
+    slidesToShow: 5,
+    slidesToScroll:1,
+    autoplay: true, // Enable automatic scrolling
+    autoplaySpeed: 0, // Adjust the duration between slides (in milliseconds)
 
+  };
+  
   return (
   
     <div class="blogs-container">  
-     <h1 class>Blogs</h1>  
+     <h1 >Blogs</h1>  
         <div class="bp">
-        <Slider {...settings}>
+        <Slider {...settings} autoplay={true} autoplaySpeed={settings.autoplaySpeed}>
           
-        <div class="blogcard"> 
+        <div class="blogcard" > 
          <img class ="blogthumbnail" src="" alt="thumbanil" />
          <h3 class="headtext">BLOG</h3>
           <p class="blogdiscription">

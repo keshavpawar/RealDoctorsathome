@@ -12,6 +12,10 @@
     font-size: 2.5rem !important;
 }
 
+.container-plans>h2{
+    margin-bottom: 3rem;
+}
+
 /* .discount{
     position: absolute;
     top: 0;
@@ -33,7 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 15rem;
     flex-wrap: wrap;
     /* margin-top: 2rem; */
 }
