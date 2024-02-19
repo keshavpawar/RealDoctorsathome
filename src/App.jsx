@@ -7,6 +7,7 @@ import Plans from "./components/Plans/Plans";
 import { ChakraProvider } from "@chakra-ui/react";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
+import Blogs from "./components/Blogs/Blogs";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Cards />
           <Plans />
           <Testimonials />
+          <Blogs />
           <Faq />
           <Footer />
         </div>

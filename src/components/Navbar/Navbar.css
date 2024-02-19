@@ -4,8 +4,8 @@
   justify-content: space-evenly;
   /* background-color: rgb(182, 218, 240); */
   /* background-color: rgb(250, 235, 218); */
-  background-color: rgb(134, 216, 205);
-  min-height: 5rem;
+  background-color: rgb(255, 255, 255);
+  min-height: 4rem;
   box-shadow: -4px 14px 69px 7px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -4px 14px 69px 7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -4px 14px 69px 7px rgba(0, 0, 0, 0.75);

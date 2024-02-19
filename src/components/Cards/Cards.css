@@ -1,6 +1,6 @@
 .card {
-  height: 340px;
-  width: 320px;
+  height: 290px;
+  width: 210px;
   /* border: 1px solid red; */
   border-radius: 23px;
   background-color: rgb(255, 255, 255);
@@ -9,15 +9,20 @@
   -moz-box-shadow: 14px 18px 54px -16px rgba(0, 0, 0, 0.75);
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 1rem; */
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: rem;
 }
 
 .card h3{
     border: none;
-    transition: all 0.9s;
+    transition: all 0.7s;
+    margin-top: 2rem;
+    font-size: larger;
+    font-weight: bolder;
+ 
+
 }
 .card h3:hover{
     border-bottom: 1px solid black;
@@ -25,18 +30,27 @@
 
 .icon{
     border-radius: 50%;
-    height: 44px;
-    width: 44px;
+    height: 100px;
+    width: 120px;
+    margin-top: 2rem;
 }
 
-.card-container h1 {
-  padding: 1rem;
-  color: #243242;
+.card p{
+
+  padding: rem;
+  border: 2px solid black;
+  justify-self: start;
+  font-size: smaller;
 }
+
 
 .card-container>h1{
     font-size: 2.6rem;
+    padding: 1rem;
+    color: #243242;
 }
+
+
 .cards {
   width: 80%;
   margin: auto;

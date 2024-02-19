@@ -23,6 +23,12 @@
     position: relative;
 }
 
+.card p{
+    font-size: medium;
+    text-align: center;
+    font-weight: 100%;
+  }
+
 .socials-testi{
     position: absolute;
     top: 10%;
