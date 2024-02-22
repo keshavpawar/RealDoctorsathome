@@ -48,8 +48,29 @@
 
 .wp{
   transition: all 0.5s;
+  position: fixed;
+  bottom: 20px; /* Adjust this value to change the distance from the bottom */
+  right: 20px; /* Adjust this value to change the distance from the right */
+  z-index: 9999; /* Ensure the button is above other content */
+
 }
 
 .wp:hover{
   transform: scale(1.2);
+}
+
+.signup{
+  display: flex;
+  gap: 5rem;
+  
+}
+
+.signup>button{
+  padding: 0.7rem;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+    color: rgb(24, 23, 23);
+    background-color: rgb(37, 211, 102);
+    transition: all 0.5s ;
 }

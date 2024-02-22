@@ -8,6 +8,7 @@ import { ChakraProvider } from "@chakra-ui/react";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Blogs from "./components/Blogs/Blogs";
+import Infotab from "./components/Infotab/Infotab";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Testimonials />
           <Blogs />
           <Faq />
+          <Infotab />
           <Footer />
         </div>
       </div>
