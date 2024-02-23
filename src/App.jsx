@@ -13,6 +13,7 @@ import {   Route, Routes, Link, BrowserRouter } from 'react-router-dom';
 import Homepage from "./Homepage";
 import Signup from "./components/Auth/Signup/Signup";
 import Login from "./components/Auth/Login/Login";
+import { Profile } from "./Page/Profile/Profile";
 
 
 
@@ -28,6 +29,9 @@ function App() {
               </Route>
 
               <Route path="/Login" element={<Login/>}>
+              </Route>
+
+              <Route path="/profile" element={<Profile/>}>
               </Route>
                           
       </Routes>

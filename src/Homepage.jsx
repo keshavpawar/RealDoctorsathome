@@ -9,10 +9,10 @@ import Faq from './components/Faq/Faq'
 import Infotab from './components/Infotab/Infotab'
 import Footer from './components/Footer/Footer'
 
-function Homepage() {
+function Homepage({login}) {
   return (
     <div>
-        <Navbar />         
+        <Navbar login={login}/>         
           <Hero />
           <Cards />
           <Plans />

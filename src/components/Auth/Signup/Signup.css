@@ -14,7 +14,9 @@
 .signup-container input[type="text"],
 .signup-container input[type="email"],
 .signup-container input[type="password"],
-.signup-container input[type="date"] {
+.signup-container input[type="date"],
+.signup-container input[type="number"]
+ {
   width: 100%;
   margin-bottom: 10px;
   padding: 10px;
