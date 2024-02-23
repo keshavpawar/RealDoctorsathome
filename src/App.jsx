@@ -9,24 +9,30 @@ import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
 import Blogs from "./components/Blogs/Blogs";
 import Infotab from "./components/Infotab/Infotab";
+import {   Route, Routes, Link, BrowserRouter } from 'react-router-dom';
+import Homepage from "./Homepage";
+import Signup from "./components/Auth/Signup/Signup";
+import Login from "./components/Auth/Login/Login";
+
+
 
 function App() {
   return (
-    <ChakraProvider>
-      <div className="app">
-        <div className="parent">
-          <Navbar />
-          <Hero />
-          <Cards />
-          <Plans />
-          <Testimonials />
-          <Blogs />
-          <Faq />
-          <Infotab />
-          <Footer />
-        </div>
-      </div>
+    <BrowserRouter>
+    <ChakraProvider>     
+    <Routes>
+        <Route path="/" element={<Homepage />}>
+              </Route>
+
+              <Route path="/Signup" element={<Signup />}>
+              </Route>
+
+              <Route path="/Login" element={<Login/>}>
+              </Route>
+                          
+      </Routes>
     </ChakraProvider>
+    </BrowserRouter>
   );
 }
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import './Navbar.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from 'react-router-dom'
 import wp from '../../assets/wp.png'
 import logo  from '../../assets/logo.png'
-// import Signup "./components/Signup/Signup.jsx";
+
 
 
 
@@ -16,15 +16,15 @@ const Navbar = () => {
             <li><a href="">Testimonials</a></li>
             <li><a href="">Faq's</a></li>
             
-
         </ul>
 
         <div class='signup'>
-    <Link to='/Signup'><button type='button'>sign up </button></Link> 
-     <button>log in </button>
+        <Link to='/Signup'> sign up </Link> 
+      <Link to='/Login'>log in </Link>
       </div>
+      
 
-            <img className='wp' style={{height:'60px', width:"60px"}} src={wp} alt="" />
+            <img className='wp' style={{height:'50px', width:"50px"}} src={wp} alt="" />
         
     </div>
   )

@@ -1,0 +1,88 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0056b3;
+}
+
+.login-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 36px;
+    background-color: rgb(225, 225, 225);
+    height: 416px;
+    border-radius: 20px;
+    max-width: 432px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+
+  }
+
+  .div-login-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225, 225, 225);
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 80%;
+  }
+
+  
+
+  .input-container{
+  width: 360px;
+  height: 200px;  
+  }
+
+  .login-form h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 325px;
+    height: 100px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 360px;
+    height: 53px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #8f3333;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4f83bb;
+  }
+  
+  input#password{
+    height: 2.7rem;
+    
+  }
+
+  input#email{
+    height: 2.7rem;
+  }
