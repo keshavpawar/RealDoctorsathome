@@ -8,7 +8,7 @@ export const Profile = () => {
   return (
     <div className="profile-container">
       <div className="left-profile">
-        Profile                 
+       <h1> Profile </h1>                                                                                   
         <div className="left-profile-content">
             <div className="child-content">
                 <div className="profile-image">                  
