@@ -24,7 +24,7 @@ const Navbar = ({ login }) => {
           <a href="">Faq's</a>
         </li>
         <li>
-          <a href="https://wordpress.com/start/user-social?ref=logged-out-homepage-lp">Blog</a>
+          <a href="https://doctorsathome4.wordpress.com/">Blog</a>
         </li>
       </ul>
 

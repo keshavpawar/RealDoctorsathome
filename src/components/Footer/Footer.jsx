@@ -30,10 +30,24 @@ const Footer = () => {
           <p>&copy; Doctors At Home | All Rights Reserved</p>
         </div>
         <div className="foot-right">
+
+        <div className="important-links">
+            <h3>Important Links</h3>
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+              <li><a href="#">Link 4</a></li>
+              <li><a href="#">Link 5</a></li>
+            </ul>
+          </div>
+
           <div className="info">
             <h1>Contact Us</h1>
             <h3>8282828282</h3>
           </div>
+          
+
           <div className="socials">
             <img className="social" src={fb} alt="" />
             <img className="social" src={insta} alt="" />
