@@ -24,11 +24,15 @@
 
 .foot-right{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    gap: 6rem;
+    height: 20rem;
+
 }
 
-.important-links{
-    justify-content: left;
-}
+/* .important-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */

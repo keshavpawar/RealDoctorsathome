@@ -17,10 +17,12 @@
     padding-bottom: 5rem;
     padding-top: 3rem;
     border-top: 2px solid rgb(183, 183, 183);
+    /* height: 5rem; */
 }
 
 .testi-card{
     position: relative;
+    
     
 }
 

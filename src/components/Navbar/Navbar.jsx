@@ -1,9 +1,9 @@
 import React from "react";
 import "./Navbar.css";
-// import { Link, animateScroll as scroll } from "react-router-dom" ;
+import { NavLink } from "react-router-dom" ;
 import wp from "../../assets/wp.png";
 import logo from "../../assets/logo.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link, animateScroll } from "react-scroll";
 
 
 const Navbar = ({ login }) => {
@@ -47,12 +47,12 @@ const Navbar = ({ login }) => {
 
       {login ? (
         <div class="profile">
-          <Link to="/profile"> profile </Link>
+          <a href="/Profile"></a>
         </div>
       ) : (
         <div class="signup">
-          <Link to="/Signup"> sign up </Link>
-          <Link to="/Login">log in </Link>
+          <NavLink to='/Signup' >SignUp</NavLink>
+          <NavLink to='/Login'>Login</NavLink>
         </div>
       )}
 
