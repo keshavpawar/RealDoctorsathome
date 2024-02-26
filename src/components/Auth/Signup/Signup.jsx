@@ -1,6 +1,11 @@
-
 import React, { useState } from 'react';
 import './Signup.css';
+import Cards from '../../Cards/Cards';
+import Plans from '../../Plans/Plans';
+import Testimonials from '../../Testimonials/Testimonials';
+import Blogs from '../../Blogs/Blogs';
+import Infotab from '../../Infotab/Infotab';
+import Footer from '../../Footer/Footer';
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -30,7 +35,9 @@ const Signup = () => {
   };
 
   return (
-    <div className="signup-container">
+    <>
+    <div className='signup-container'>
+    <div className="signup-form">
       <h2>Sign Up</h2>
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange} />
@@ -42,7 +49,28 @@ const Signup = () => {
         <input type="password" name="confirmPassword" placeholder="Confirm Password" value={formData.confirmPassword} onChange={handleChange} />
         <button type="submit">Sign Up</button>
       </form>
+    </div>  
+    </div> 
+
+      <div>
+        <Cards/>
+      </div>
+      <div>
+      <Plans/>
     </div>
+    <div>
+    <Testimonials/>
+    </div>
+    <div>
+      <Blogs/>
+    </div>
+    <div>
+      <Infotab/>
+    </div>
+    <div>
+      <Footer/>
+    </div>
+    </>
   );
 };
 

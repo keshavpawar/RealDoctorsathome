@@ -3,6 +3,12 @@
 import React, { useState } from 'react';
 import './Login.css';
 import Homepage from '../../../Homepage';
+import Cards from '../../Cards/Cards';
+import Plans from '../../Plans/Plans';
+import Testimonials from '../../Testimonials/Testimonials';
+import Blogs from '../../Blogs/Blogs';
+import Infotab from '../../Infotab/Infotab';
+import Footer from '../../Footer/Footer';
 
 const Login = ({login}) => {
 
@@ -37,6 +43,8 @@ const Login = ({login}) => {
 
   return (
     <>
+
+    
       {isLogin?<Homepage login={isLogin}/>:<div className="login-container">
       <div className="login-form">
         <div className="div-login-container">
@@ -57,6 +65,25 @@ const Login = ({login}) => {
         </div>
       </div>
     </div> }
+
+    <div>
+      <Cards/>
+    </div>
+    <div>
+      <Plans/>
+    </div>
+    <div>
+    <Testimonials/>
+    </div>
+    <div>
+      <Blogs/>
+    </div>
+    <div>
+      <Infotab/>
+    </div>
+    <div>
+      <Footer/>
+    </div>
     </>
     
   );

@@ -1,8 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+// import { Link, animateScroll as scroll } from "react-router-dom" ;
 import wp from "../../assets/wp.png";
 import logo from "../../assets/logo.png";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const Navbar = ({ login }) => {
   console.log(login);
@@ -15,13 +17,28 @@ const Navbar = ({ login }) => {
       </h1>
       <ul>
         <li>
-          <a href="">Our Plans</a>
+          <Link to="Plans" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} 
+            >Plans</Link>
+          </li>
+        <li>
+        <Link to="Testimonials" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} 
+            >Testimonials</Link>
         </li>
         <li>
-          <a href="">Testimonials</a>
-        </li>
-        <li>
-          <a href="">Faq's</a>
+        <Link to="Faq" 
+      spy={true} 
+      smooth={true} 
+      offset={50} 
+      duration={500} 
+            >Faq</Link>
         </li>
         <li>
           <a href="https://doctorsathome4.wordpress.com/">Blog</a>

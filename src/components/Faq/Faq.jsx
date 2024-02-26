@@ -11,7 +11,7 @@ import {
 
 const Faq = () => {
   return (
-    <div className="faq-parent">
+    <div className="faq-parent" id="Faq">
       <h1 >Frequently Asked Questions</h1>
       <div className="faq-container">
         <Accordion  style={{ width: "40vw" }} allowToggle>

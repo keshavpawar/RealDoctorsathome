@@ -5,7 +5,7 @@ import fb from "../../assets/fb.png";
 
 const Testimonials = () => {
   return (
-    <div className="testimonials-container">
+    <div className="testimonials-container" id="Testimonials">
       <h1>Testimonials</h1>
       <div className="cp">
         <div className="card testi-card">
